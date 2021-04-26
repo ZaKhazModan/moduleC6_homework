@@ -1,0 +1,46 @@
+.web-app {
+    display: flex;
+    width: 500px;
+    min-height: 500px;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-msg {
+    width: 260px;
+    height: 40px;
+    border: 3px;
+    border-style: solid;
+    border-color: #bbd8ed;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background: #bbd8ed;
+}
+
+.btn:hover {
+    background: rgb(116, 116, 48);
+}
+
+.btn:active {
+    background: rgb(184, 57, 57);
+}
+
+.echo-chat {
+    margin: 10px;
+    padding: 10px;
+    min-height: 400px;
+    border: 3px;
+    border-style: solid;
+    border-color: #64849b;
+}
